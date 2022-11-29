@@ -1,0 +1,46 @@
+*{
+
+}
+
+.active{
+    color: #f9004d;
+}
+.project-info{
+    min-height: 30vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-right: 21px;
+   justify-content: center;
+   align-items: center;
+   letter-spacing: 3px;
+
+   font-family: 'Times New Roman', Times, serif;
+}
+.title{
+ flex: 1;
+ margin-bottom: 6px;
+ font-size: 1.5rem;
+ font-style: italic;
+ height: 20%;
+ width: 60%;
+ 
+
+}
+
+.text{
+  flex: 2;
+  width: 70%;
+  margin-bottom: 6px;
+  min-height: 40%;
+  margin: 10px;
+  padding: 20px;
+}
+.project-info> button{
+ flex: 0.5;
+}
